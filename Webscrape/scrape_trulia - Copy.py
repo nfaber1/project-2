@@ -161,6 +161,9 @@ for places in house_div:
         else:
           print(price)
         prices.append(price)
+
+        loc = places.span.find('span', class_='result-hood')
+        print(loc)
         
         bed = places.div.find('span', class_='housing')
         print(bed)
